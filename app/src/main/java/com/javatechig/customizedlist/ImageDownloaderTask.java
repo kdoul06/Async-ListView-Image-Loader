@@ -4,8 +4,11 @@ import java.io.InputStream;
 import java.lang.ref.WeakReference;
 import java.net.HttpURLConnection;
 import java.net.URL;
+
 import org.apache.http.HttpStatus;
+
 import com.example.customizedlist.R;
+
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
@@ -41,11 +44,10 @@ class ImageDownloaderTask extends AsyncTask<String, Void, Bitmap> {
         if (imageViewReference != null) {
             ImageView imageView = imageViewReference.get();
             if (imageView != null) {
-
                 if (bitmap != null) {
                     imageView.setImageBitmap(bitmap);
                 } else {
-                    Drawable placeholder = imageView.getContext().getResources().getDrawable(R.drawable.list_placeholder);
+                    Drawable placeholder = imageView.getContext().getResources().getDrawable(R.drawable.placeholder);
                     imageView.setImageDrawable(placeholder);
                 }
             }
@@ -71,7 +73,7 @@ class ImageDownloaderTask extends AsyncTask<String, Void, Bitmap> {
             }
         } catch (Exception e) {
             urlConnection.disconnect();
-            Log.w("ImageDownloader", "Error while retrieving bitmap from " + url);
+            Log.w("ImageDownloader", "Error downloading image from " + url);
         } finally {
             if (urlConnection != null) {
                 urlConnection.disconnect();

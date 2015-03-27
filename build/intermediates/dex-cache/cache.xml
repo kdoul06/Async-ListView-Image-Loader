@@ -6,7 +6,7 @@
         jumboMode="false"
         revision="21.1.2"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/nilanchalpanigrahy/Documents/AndroidStudioWorkspace/AsyncImageLoaderListview/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-7fb4eb55e2b31e395b451a85af3472b9ab3cee02.jar" />
+        <dex dex="/Users/nilanchalpanigrahy/Async-ListView-Image-Loader/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-7fb4eb55e2b31e395b451a85af3472b9ab3cee02.jar" />
     </item>
 
 </items>

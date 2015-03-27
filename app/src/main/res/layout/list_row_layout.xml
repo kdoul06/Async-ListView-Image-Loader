@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:minHeight="50dp"
-    android:orientation="horizontal" >
+    android:padding="8dp">
 
     <ImageView
         android:id="@+id/thumbImage"
@@ -11,42 +11,31 @@
         android:layout_height="70dp"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/list_placeholder" />
+        android:layout_marginRight="10dp"
+        android:background="@drawable/placeholder" />
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/thumbImage"
-        android:paddingLeft="5dp"
+        android:minLines="2"
         android:paddingTop="5dp"
-        android:text=""
-        android:textColor="@drawable/list_item_text_selector"
-        android:textStyle="bold"
-        android:typeface="sans" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/reporter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/title"
-        android:layout_marginTop="5dip"
-        android:layout_toRightOf="@id/thumbImage"
-        android:paddingLeft="5dp"
-        android:text=""
-        android:textColor="@drawable/list_item_text_selector"
-        android:textSize="12sp" />
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/thumbImage" />
 
     <TextView
         android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/reporter"
         android:layout_alignBottom="@+id/reporter"
-        android:layout_alignParentRight="true"
-        android:paddingRight="5dp"
-        android:text=""
-        android:textColor="@drawable/list_item_text_selector"
-        android:textSize="12sp" />
+        android:layout_alignParentRight="true" />
 
 </RelativeLayout>

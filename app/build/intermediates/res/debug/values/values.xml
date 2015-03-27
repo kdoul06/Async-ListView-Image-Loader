@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/nilanchalpanigrahy/Documents/AndroidStudioWorkspace/AsyncImageLoaderListview/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/nilanchalpanigrahy/Async-ListView-Image-Loader/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <array name="headline_array">
         <item>Dance of Democracy</item>
@@ -20,7 +20,7 @@
         <item>http://lh6.ggpht.com/_Nsxc889y6hY/TBp7jfx-cgI/AAAAAAAAHAg/Rr7jX44r2Gc/s144-c/IMGP9775a.jpg</item>
         <item>http://lh6.ggpht.com/_ZN5zQnkI67I/TCFFZaJHDnI/AAAAAAAABVk/YoUbDQHJRdo/s144-c/P9250508.JPG</item>
     </array>
-    <!-- From: file:/Users/nilanchalpanigrahy/Documents/AndroidStudioWorkspace/AsyncImageLoaderListview/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/nilanchalpanigrahy/Async-ListView-Image-Loader/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="list_row_default_bg">#ffffff</color>
     <color name="list_row_pressed_bg">#008cef</color>
@@ -28,14 +28,14 @@
     <color name="text_color_default">#00000C</color>
     <color name="text_color_inverse">#FFFFFF</color>
     <color name="white">#FFFFFF</color>
-    <!-- From: file:/Users/nilanchalpanigrahy/Documents/AndroidStudioWorkspace/AsyncImageLoaderListview/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/nilanchalpanigrahy/Async-ListView-Image-Loader/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/nilanchalpanigrahy/Documents/AndroidStudioWorkspace/AsyncImageLoaderListview/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/nilanchalpanigrahy/Async-ListView-Image-Loader/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">Async ListView</string>
-    <!-- From: file:/Users/nilanchalpanigrahy/Documents/AndroidStudioWorkspace/AsyncImageLoaderListview/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/nilanchalpanigrahy/Async-ListView-Image-Loader/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
