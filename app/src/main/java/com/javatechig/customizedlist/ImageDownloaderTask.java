@@ -4,11 +4,8 @@ import java.io.InputStream;
 import java.lang.ref.WeakReference;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
 import org.apache.http.HttpStatus;
-
 import com.example.customizedlist.R;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
@@ -55,7 +52,7 @@ class ImageDownloaderTask extends AsyncTask<String, Void, Bitmap> {
         }
     }
 
-    static Bitmap downloadBitmap(String url) {
+    private Bitmap downloadBitmap(String url) {
         HttpURLConnection urlConnection = null;
         try {
             URL uri = new URL(url);
