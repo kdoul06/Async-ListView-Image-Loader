@@ -38,4 +38,4 @@
         android:layout_alignBottom="@+id/reporter"
         android:layout_alignParentRight="true" />
 
-</RelativeLayout><!-- From: file:/Users/nilanchalpanigrahy/Async-ListView-Image-Loader/app/src/main/res/layout/list_row_layout.xml -->
+</RelativeLayout>

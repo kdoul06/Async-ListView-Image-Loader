@@ -2,11 +2,31 @@
 <items version="2" >
 
     <item
-        jar="/Users/nilanchalpanigrahy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\User\StudioProjects\Async-ListView-Image-Loader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f7da1d73d0288bd8c0c742b79d81b107a6c2407f">
+        <dex dex="C:\Users\User\StudioProjects\Async-ListView-Image-Loader\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7e22c0a3a4e3a9007e35e4b1262326ccd50b748b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\StudioProjects\Async-ListView-Image-Loader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d8f1fdcf204eb625a25a8d9d59da4b10f57af185">
+        <dex dex="C:\Users\User\StudioProjects\Async-ListView-Image-Loader\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_15d0c3f8d5b58cdfba97f4f40810f43472ec393e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\accel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/nilanchalpanigrahy/Async-ListView-Image-Loader/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-7fb4eb55e2b31e395b451a85af3472b9ab3cee02.jar" />
+        <dex dex="C:\Users\User\StudioProjects\Async-ListView-Image-Loader\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_cac2c3c2b1ea6e5868e63b68af26923eec7081f9\classes.dex" />
     </item>
 
 </items>
